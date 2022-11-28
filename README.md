@@ -24,9 +24,9 @@ print("menampilkan kontak rose:",r['rose]).
 
 3. Menambahkan kontak baru dengan Variabel_dictonary.`['keys']=varibel;` pyhoton:`r['lisa']='087654544';`
 
-4. Mengubah kontak yang lama menjadi baru menggunakan `Variabel_dictonary['keys]=volume;` contohnya mengnakan kontak dina yang awalnya
+4. Mengubah kontak yang lama menjadi baru menggunakan `Variabel_dictonary['keys]=volume;` contohnya mengnakan kontak jeni yang awalnya
 `'jeni':'08677776'`  menjadi
-'r=['jeni']='0899976'`
+`'r=['jeni']='0899976'`
 
 5. menampilakan seluruh Nama pada kontak mengunakan `keys(). pyhoton: print(r.keys())`
 
@@ -34,7 +34,7 @@ print("menampilkan kontak rose:",r['rose]).
 
 7. Menampilkan seluruh nama beserta nomer kontak menggunakan `item(). pyhoton:print(r.item)`
 
-8. Untuk menghapus salah satu kontak menggunakan statement `del`` variabel_doctinary[keys];. pyhoton:del r['jeni']`
+8. Untuk menghapus salah satu kontak menggunakan statement `del variabel_doctinary[keys];. pyhoton:del r['jeni']`
 
 ### OUTPUT
 
