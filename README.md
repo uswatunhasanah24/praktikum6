@@ -98,7 +98,7 @@ while True:
             print("| TIDAK ADA DATA|")
             print(72*"=")
             print()
-            `
+`            
             
 5. Apa bila ingin mengubah data, kita di minta untuk mengiput NIM terlebih dulu. baru lah data bisa diubah.
   ` 
