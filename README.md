@@ -51,16 +51,18 @@ print("menampilkan kontak rose:",r['rose]).
 2. Membuat peluang dengan while dan terdapat pilihan menu untuk menjalankan program.
 
 
-`while True:
+```
+while True:
     print()
     a=input("[(L)ihat, (T)amabah, (U)bah, (H)apus, (C)ari, (K)eluar]:")
-    print()`
-   
+    print()
+```   
     
 3. Menambahkan data NIM, NAMA, NILAI TUGAS, UTS, dan UAS. Data yang diinputkan akan masuk ke Dictionary, data dengan NIM kan sebagai Keys. 
    sedangkan nama, tugas, dan uts, uas akan menjadi data valuse.
     
-    `if a=="t" or a=="T":
+```
+if a=="t" or a=="T":
         print("TAMBAH DATA")
         print("-----------")
         nim=int(input("NIM\t:"))
@@ -70,7 +72,9 @@ print("menampilkan kontak rose:",r['rose]).
         uas=input("UAS\t")
         akhir=(int(tugas)*30/100)+(int(uts)*35/100)+(int(uas)*35/100)
         data[nim]=nama,tugas,uts,uas,akhir
-        print()`
+        print()
+ ```       
+        
         
 4. Menambahkan atau melihat data. sebelum melihatdata kita haus mengimpu data terebih dahulu agar data yang udah di input bisa ditampilkan.
    jika belum mengiput data otomatis data yang ditambilkan akan bertulikan "Tidak ada data"
@@ -103,7 +107,9 @@ print("menampilkan kontak rose:",r['rose]).
            
             
 5. Apa bila ingin mengubah data, kita di minta untuk mengiput NIM terlebih dulu. baru lah data bisa diubah.
-  ` 
+  
+  
+ ```
    elif a=="u"or a=="U":
         print("UBAH DATA")
         b=input("Masukan NIM Anda:")
@@ -113,11 +119,12 @@ print("menampilkan kontak rose:",r['rose]).
             uts=int(input("UTS\t"))
             uas=int(input("UAS\t"))
             akhir=(int(tugas)*30/100)+(int(uts)*35/100)+(int(uas)*35/100)
-            `
+```            
             
 6. Apa bila ingin menghapus data. maka kita kan diminta untuk mengimput NIM terlebih dulu. lalu data yang telah diinput akan dihapus bersama
 volues_nya(Nama, Tugas, uts, uas).
- `
+ 
+ ```
  elif a=="h" or a=="H":
         print("HAPUS DATA")
         print("----------")
@@ -125,10 +132,12 @@ volues_nya(Nama, Tugas, uts, uas).
         print()
         if data.keys():
             del data[nim]
-            `
+```            
             
 7. Apa bila ingin menceri data. anda kan diminta untuk mengimput NIM. kemudian data yang di carikan keluar bersamaan NIM yang diinput tadi.
-   `
+   
+   
+```   
    elif a=="c" or a=="C":
         print("CARI DATA")
         print("---------")
@@ -141,10 +150,37 @@ volues_nya(Nama, Tugas, uts, uas).
             print("|{0:>10}|{1:>10}|{2:>6}|{3:>6}|{4:>6}|{5:>12}|".format(nim,nama,tugas,uts,uas,akhir))
             print(72*"=")
             print()
-            `
+```            
             
 8. JIka sudah selesai data yang diinput anda bisa memilih menu "K" maka program akan terhenti otomais.
-`
+
+```
 elif a=="k" or a=="K":
-`
+
               break
+```
+
+
+### SOURCE CODE
+
+![PRAKTIKUM(A)](https://user-images.githubusercontent.com/115516474/204231724-4ed10888-aa14-43cd-bb80-9908c7dd2dbf.png)
+
+![PRAKTIKUM(B)](https://user-images.githubusercontent.com/115516474/204231772-cd430bbb-4326-458d-a666-2bf9559e1677.png)
+
+![PRAKTIKUM(C)](https://user-images.githubusercontent.com/115516474/204231807-06018b04-2582-4414-bb6a-70e3c6d1c435.png)
+
+
+### OUTPUT
+
+![PRAKTIKUM(1)](https://user-images.githubusercontent.com/115516474/204231876-09c52ba9-0d2e-442a-b63a-f9b94babfce3.png)
+
+![PRAKTIKUM(2)](https://user-images.githubusercontent.com/115516474/204231914-496e2c92-e5e3-4185-9f31-1cd22fba87e7.png)
+
+![PRAKTIKUM(3)](https://user-images.githubusercontent.com/115516474/204231943-8292ddb4-6ea9-4b26-9248-8a231218e826.png)
+
+![PRAKTIKUM(4)](https://user-images.githubusercontent.com/115516474/204231968-63343716-3456-4573-92ed-7590c655c22d.png)
+
+![PRAKTIKUM(5)](https://user-images.githubusercontent.com/115516474/204231992-025cac37-c62d-45a0-a85e-1bfb8fe3ce3e.png)
+
+![PRAKTIKUM(6)](https://user-images.githubusercontent.com/115516474/204232035-c3e5daba-7e48-4703-8c83-21cd003e71a8.png)
+
