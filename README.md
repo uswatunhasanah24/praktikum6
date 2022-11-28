@@ -75,8 +75,8 @@ print("menampilkan kontak rose:",r['rose]).
 4. Menambahkan atau melihat data. sebelum melihatdata kita haus mengimpu data terebih dahulu agar data yang udah di input bisa ditampilkan.
    jika belum mengiput data otomatis data yang ditambilkan akan bertulikan "Tidak ada data"
    
-   
-  ` elif a=="l" or a=="L":
+`
+    elif a=="l" or a=="L":
         if data.items():
             print("DAFTAR NILAI")
             print("------------")
@@ -97,7 +97,9 @@ print("menampilkan kontak rose:",r['rose]).
             print(72*"=")
             print("| TIDAK ADA DATA|")
             print(72*"=")
-            print()`
+            print()
+`
+ 
            
             
 5. Apa bila ingin mengubah data, kita di minta untuk mengiput NIM terlebih dulu. baru lah data bisa diubah.
