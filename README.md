@@ -73,7 +73,8 @@ while True:
 4. Menambahkan atau melihat data. sebelum melihatdata kita haus mengimpu data terebih dahulu agar data yang udah di input bisa ditampilkan.
    jika belum mengiput data otomatis data yang ditambilkan akan bertulikan "Tidak ada data"
    
-   `elif a=="l" or a=="L":
+   `
+   elif a=="l" or a=="L":
         if data.items():
             print("DAFTAR NILAI")
             print("------------")
