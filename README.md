@@ -50,12 +50,12 @@ print("menampilkan kontak rose:",r['rose]).
 
 2. Membuat peluang dengan while dan terdapat pilihan menu untuk menjalankan program.
 
-`
-while True:
+
+`while True:
     print()
     a=input("[(L)ihat, (T)amabah, (U)bah, (H)apus, (C)ari, (K)eluar]:")
-    print()
-`    
+    print()`
+   
     
 3. Menambahkan data NIM, NAMA, NILAI TUGAS, UTS, dan UAS. Data yang diinputkan akan masuk ke Dictionary, data dengan NIM kan sebagai Keys. 
    sedangkan nama, tugas, dan uts, uas akan menjadi data valuse.
