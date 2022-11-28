@@ -184,3 +184,7 @@ elif a=="k" or a=="K":
 
 ![PRAKTIKUM(6)](https://user-images.githubusercontent.com/115516474/204232035-c3e5daba-7e48-4703-8c83-21cd003e71a8.png)
 
+
+### FLAWCHART
+
+![Screenshot (144)](https://user-images.githubusercontent.com/115516474/204239158-474480e2-06f6-4832-a84f-de9d2b3c73fb.png)
